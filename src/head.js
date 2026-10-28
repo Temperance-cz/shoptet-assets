@@ -41,6 +41,7 @@ replaceSurchargeLabel();
     var STYLES = [
         'html.' + TREE_CLASS + ' .category-top:has(ul.subcategories) { border-bottom: 0; margin-bottom: 0; }',
         'html.' + TREE_CLASS + ' .category-top:has(ul.subcategories) ~ .category-content-wrapper { display: none; }',
+        'html.' + TREE_CLASS + ' .category-top:has(ul.subcategories) .products-top-wrapper { display: none; }',
         SUBCATEGORIES_SELECTOR + ' { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }',
         SUBCATEGORIES_SELECTOR + ' li { float: none; width: auto; flex: 0 1 300px; padding: 0; }',
         '@media (max-width: 575px) { ' + SUBCATEGORIES_SELECTOR + ' li { flex-basis: 100%; } }',

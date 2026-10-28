@@ -13,7 +13,7 @@ Repo je veřejné, protože jsDelivr servíruje jen veřejné repozitáře. Nepa
 
 Strom: `/--vanocni-balicky/` → Pro muže / Pro ženy → koncové kategorie (Pro manželku, Pro maminku, …).
 
-- **Větve stromu** (kategorie s dlaždicemi podkategorií, i když mají přiřazené produkty) nezobrazují produkty, filtry ani hlášku „Produkty teprve připravujeme“. Dlaždice podkategorií jsou větší a text se nezkracuje. Koncové kategorie zůstávají beze změny, i prázdné s hláškou. Strom se pozná podle drobečkové navigace.
+- **Větve stromu** (kategorie s dlaždicemi podkategorií, i když mají přiřazené produkty) nezobrazují produkty, filtry, blok „Nejprodávanější“ ani hlášku „Produkty teprve připravujeme“. Dlaždice podkategorií jsou větší a text se nezkracuje. Koncové kategorie zůstávají beze změny, i prázdné s hláškou. Strom se pozná podle drobečkové navigace.
 - **Výběr „Zařadit ZDARMA do Vánočního balíčku“** (parametr příplatku 113) je skrytý. Skrývá se jen on a jeho popisek, celý seznam příplatků zmizí, jen když v něm nic jiného není. Příplatek je nepovinný, bez výběru jde produkt do košíku (ověřeno na živém e-shopu 2026-10-28), takže skrytý výběr nic neblokuje.
 - **Zobrazí se**, když zákazník přišel ze stránky, jejíž první segment adresy odpovídá některé možnosti výběru (`/pro-manzelku/` ↔ „Pro manželku +0 Kč“). Ta možnost se předvybere a ostatní se z výběru odeberou. Skript neověřuje, že stránka patří do stromu Vánočních balíčků, rozhoduje jen shoda jména.
 - **Kategorie a možnost se propojují jen jménem:** slug kategorie se musí rovnat slugu textu možnosti bez ceny za plusem. Pro novou koncovou kategorii stačí u produktů založit stejně pojmenovanou možnost, skript se nemění. Nesedí-li jméno, výběr zůstane skrytý.
